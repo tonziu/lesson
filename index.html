@@ -26,6 +26,39 @@
         <nav>
         </nav>
         <main>
+            <div>
+                <h2> What did you learn today? </h2>
+                <form method="post">
+                    <div>
+                        <label for="note_description"> Description </label>
+                        <textarea id="note_description" name="note_description" required></textarea>
+                    </div>
+                    <div>
+                        <label for="note_keywords"> Keywords </label>
+                        <input type="text" id="note_keywords" name="note_keywords" required>
+                    </div>
+                    <div>
+                        <button type="submit"> Confirm </button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div>
+                <h2> Find your lessons</h2>
+                <form>
+                    <div>
+                        <label for"search_keywords" name="search_keywords"> Keywords </label>
+                        <input type="text" id="search_keywords" name="search_keywords" required>
+                    </div>
+                    <div>
+                        <button type="submit"> Search </button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h3> Your Lessons </h3>
+                <p> No lessons yet. </p>
+            </div>
         </main>
         <footer>
         </footer>
